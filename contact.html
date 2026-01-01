@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Vikas Solanki for content creation, social media management, and web development services">
+    <title>Contact - Vikas Solanki | Get In Touch</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" aria-label="Home">
+                <span class="logo-icon">★</span>
+                <span class="logo-text">Vikas Solanki</span>
+            </a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu" role="menu">
+                <li role="none"><a href="index.html" class="nav-link" role="menuitem">Home</a></li>
+                <li role="none"><a href="services.html" class="nav-link" role="menuitem">Services</a></li>
+                <li role="none"><a href="portfolio.html" class="nav-link" role="menuitem">Portfolio</a></li>
+                <li role="none"><a href="about.html" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="contact.html" class="nav-link active" role="menuitem">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Let's discuss your project</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info-box">
+                    <h2>Contact Information</h2>
+                    <p>Feel free to reach out through any of these channels. I'm always available to discuss new projects and opportunities.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>PartnersOfficialWorks.0990@Gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p>+91 88751 90812 (24/7 DM Only)</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Bikaner, Rajasthan, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-connect">
+                        <h4>Connect on Social Media</h4>
+                        <div class="contact-social-links">
+                            <a href="https://youtube.com/@RealVikasSolanki" target="_blank" rel="noopener noreferrer" class="social-link youtube" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://x.com/vikassolankiraj" target="_blank" rel="noopener noreferrer" class="social-link twitter" aria-label="Twitter/X">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com/RealVikasSolanki" target="_blank" rel="noopener noreferrer" class="social-link instagram" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/RealVikasSolanki" target="_blank" rel="noopener noreferrer" class="social-link github" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/RealVikasSolanki" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-box">
+                    <h2>Send a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Select Service</label>
+                            <select id="service" name="service" required>
+                                <option value="">Choose a service...</option>
+                                <option value="Thumbnail Design">Thumbnail Design</option>
+                                <option value="Video Editing">Video Editing</option>
+                                <option value="Social Media Management">Social Media Management</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="Graphics Design">Graphics Design</option>
+                                <option value="Content Creation">Content Creation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Common Questions</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-grid">
+                <article class="faq-item">
+                    <div class="faq-question">
+                        <h4>What is your turnaround time?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p><strong>Thumbnail designs:</strong> 24-48 hours</p>
+                        <p><strong>Video editing:</strong> 3-5 days</p>
+                        <p><strong>Web development:</strong> 7-14 days depending on complexity</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you offer revisions?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! All services include unlimited revisions until you're completely satisfied with the final result.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <div class="faq-question">
+                        <h4>What payment methods do you accept?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I accept UPI, bank transfer, and online payment methods. 50% advance is required to start work, with the balance due upon completion.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <div class="faq-question">
+                        <h4>Can you work on urgent projects?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, rush delivery is available for an additional fee. Contact me via WhatsApp to discuss your timeline and requirements.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you provide source files?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all projects include source files. For web development projects, you'll receive the complete code. For design work, you'll get both final exports and editable files.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <div class="faq-question">
+                        <h4>How do we communicate during the project?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I'm available via WhatsApp, email, and social media. WhatsApp is the fastest way to reach me for quick updates and feedback.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>★ Vikas Solanki ★</h3>
+                    <p>Professional Content Creation & Social Media Management</p>
+                    <div class="footer-social">
+                        <a href="https://youtube.com/@RealVikasSolanki" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://x.com/vikassolankiraj" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/RealVikasSolanki" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/RealVikasSolanki" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/RealVikasSolanki" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> PartnersOfficialWorks.0990@Gmail.com</p>
+                    <p><i class="fab fa-whatsapp"></i> +91 88751 90812</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bikaner, Rajasthan, IN</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vikas Solanki. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
