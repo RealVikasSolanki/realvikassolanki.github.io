@@ -3,71 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn about Vikas Solanki's journey, experience, and professional partnerships">
-    <title>About - Vikas Solanki | My Journey</title>
+    <title>About Me | Vikas Solanki - Content Creator & Developer</title>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Theme Toggle -->
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
         <i class="fas fa-moon"></i>
     </button>
 
-    <!-- Navigation -->
-    <nav class="navbar" role="navigation">
+    <!-- Navbar -->
+    <nav class="navbar">
         <div class="container nav-container">
-            <a href="index.html" class="logo" aria-label="Home">
+            <a href="index.html" class="logo">
                 <span class="logo-icon">★</span>
                 <span class="logo-text">Vikas Solanki</span>
             </a>
-            
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            
-            <ul class="nav-menu" id="navMenu" role="menu">
-                <li role="none"><a href="index.html" class="nav-link" role="menuitem">Home</a></li>
-                <li role="none"><a href="services.html" class="nav-link" role="menuitem">Services</a></li>
-                <li role="none"><a href="portfolio.html" class="nav-link" role="menuitem">Portfolio</a></li>
-                <li role="none"><a href="about.html" class="nav-link active" role="menuitem">About</a></li>
-                <li role="none"><a href="contact.html" class="nav-link" role="menuitem">Contact</a></li>
-            </ul>
         </div>
     </nav>
 
     <!-- Page Header -->
-    <header class="page-header">
+    <section class="page-header">
         <div class="container">
             <h1>About Me</h1>
-            <p>My journey, expertise & partnerships</p>
+            <p>My Journey & Expertise</p>
         </div>
-    </header>
+    </section>
 
-    <!-- About Introduction - FIXED -->
+    <!-- About Intro Section -->
     <section class="section about-intro">
         <div class="container">
             <div class="about-intro-grid">
-                <!-- Profile Image - FIXED -->
-                <div class="about-image-section">
-                    <div class="about-image-wrapper">
-                        <img src="images/vertical_pfp.jpg" alt="Vikas Solanki" class="about-main-image">
-                    </div>
+                <!-- Left: Image -->
+                <div class="about-image-wrapper">
+                    <img src="https://via.placeholder.com/500x600/FF0000/FFFFFF?text=Vikas+Solanki" 
+                         alt="Vikas Solanki" 
+                         class="about-main-image">
                 </div>
 
-                <!-- About Text -->
+                <!-- Right: Text -->
                 <div class="about-text-section">
-                    <h2>Vikas Solanki</h2>
-                    <h3 class="about-role">Content Creator & Social Media Manager</h3>
+                    <h2 class="text-primary">Hello! I'm Vikas Solanki</h2>
+                    <p class="about-role">Content Creator • Social Media Manager • Web Developer</p>
                     
-                    <p>Hello! I'm Vikas Solanki, a passionate freelance content creator and social media manager based in <strong>Bikaner, Rajasthan</strong>. With over 5 years of experience in social media management and 1 year in web development, I help brands and creators establish their digital presence.</p>
+                    <p>I'm a passionate freelance content creator and social media manager based in <strong>Bikaner, Rajasthan</strong>. With over <strong>5 years of experience</strong> in social media management and <strong>1 year in web development</strong>, I help brands and creators establish their digital presence.</p>
                     
-                    <p>My journey in the digital world has been driven by creativity, dedication, and a constant desire to learn and grow. I believe in delivering quality work that not only meets but exceeds client expectations.</p>
+                    <p>From crafting eye-catching YouTube thumbnails to building responsive websites, I offer complete digital solutions that help my clients grow their online presence and reach their goals.</p>
 
-                    <!-- Stats Mini -->
+                    <p>My mission is to provide high-quality, creative solutions that not only meet but exceed client expectations. Every project is an opportunity to create something amazing.</p>
+
+                    <!-- Mini Stats -->
                     <div class="about-stats-mini">
                         <div class="stat-mini">
                             <h4>5+</h4>
@@ -87,158 +92,194 @@
         </div>
     </section>
 
-    <!-- Journey Timeline -->
+    <!-- Skills & Technologies Section -->
+    <section class="section skills-section-page">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-label">MY EXPERTISE</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </header>
+
+            <div class="skills-categories">
+                <!-- Design Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-palette"></i> Design & Graphics
+                    </h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Adobe Photoshop</span>
+                        <span class="skill-tag">Canva Pro</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Thumbnail Design</span>
+                        <span class="skill-tag">Logo Design</span>
+                        <span class="skill-tag">Brand Identity</span>
+                    </div>
+                </div>
+
+                <!-- Video Editing -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-video"></i> Video Production
+                    </h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Adobe Premiere Pro</span>
+                        <span class="skill-tag">Final Cut Pro</span>
+                        <span class="skill-tag">DaVinci Resolve</span>
+                        <span class="skill-tag">CapCut</span>
+                        <span class="skill-tag">Motion Graphics</span>
+                        <span class="skill-tag">Color Grading</span>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i> Web Development
+                    </h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <!-- Social Media -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-share-alt"></i> Social Media Management
+                    </h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">YouTube Growth</span>
+                        <span class="skill-tag">Instagram Marketing</span>
+                        <span class="skill-tag">Content Strategy</span>
+                        <span class="skill-tag">Analytics</span>
+                        <span class="skill-tag">SEO Optimization</span>
+                        <span class="skill-tag">Community Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
     <section class="section timeline-section">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label">My Story</span>
-                <h2 class="section-title">Professional Journey</h2>
-            </div>
+            <header class="section-header">
+                <span class="section-label">MY JOURNEY</span>
+                <h2 class="section-title">Career Timeline</h2>
+            </header>
 
             <div class="timeline">
-                <!-- Timeline Item 1 -->
-                <article class="timeline-item">
-                    <div class="timeline-marker">🎬</div>
-                    <div class="timeline-content">
-                        <div class="timeline-year">2020</div>
-                        <h4>Started Social Media Journey</h4>
-                        <p>Began creating content and managing social media accounts for small businesses and creators.</p>
+                <!-- 2020 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-rocket"></i>
                     </div>
-                </article>
-
-                <!-- Timeline Item 2 -->
-                <article class="timeline-item">
-                    <div class="timeline-marker">🎨</div>
                     <div class="timeline-content">
-                        <div class="timeline-year">2021</div>
-                        <h4>Graphics Design Expertise</h4>
-                        <p>Expanded skills to include professional graphics design, thumbnails, and visual branding.</p>
+                        <span class="timeline-year">2020</span>
+                        <h4>The Beginning</h4>
+                        <p>Began creating content and managing social media accounts for local businesses and personal brands.</p>
                     </div>
-                </article>
+                </div>
 
-                <!-- Timeline Item 3 -->
-                <article class="timeline-item">
-                    <div class="timeline-marker">✨</div>
+                <!-- 2021 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
                     <div class="timeline-content">
-                        <div class="timeline-year">2022</div>
-                        <h4>Video Editing Mastery</h4>
+                        <span class="timeline-year">2021</span>
+                        <h4>Graphics Design Mastery</h4>
+                        <p>Expanded skills to include professional graphics design, specializing in YouTube thumbnails and social media posts.</p>
+                    </div>
+                </div>
+
+                <!-- 2022 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2022</span>
+                        <h4>Video Editing Pro</h4>
                         <p>Added professional video editing to service offerings, helping creators produce high-quality content.</p>
                     </div>
-                </article>
+                </div>
 
-                <!-- Timeline Item 4 -->
-                <article class="timeline-item">
-                    <div class="timeline-marker">💻</div>
+                <!-- 2024 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
                     <div class="timeline-content">
-                        <div class="timeline-year">2024</div>
+                        <span class="timeline-year">2024</span>
                         <h4>Web Development</h4>
-                        <p>Started learning and offering web development services with HTML, CSS, and JavaScript.</p>
+                        <p>Started learning and offering web development services, creating responsive websites for clients.</p>
                     </div>
-                </article>
+                </div>
 
-                <!-- Timeline Item 5 -->
-                <article class="timeline-item">
-                    <div class="timeline-marker">🏆</div>
+                <!-- 2025 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-crown"></i>
+                    </div>
                     <div class="timeline-content">
-                        <div class="timeline-year">2025-26</div>
-                        <h4>Full-Service Freelancer</h4>
-                        <p>Now offering complete digital solutions including content creation, social media, and web development.</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="section" style="background: var(--bg-secondary);">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Expertise</span>
-                <h2 class="section-title">Skills & Technologies</h2>
-            </div>
-
-            <div class="skills-showcase">
-                <!-- Skill Category 1 -->
-                <div class="skill-category">
-                    <h3>🎨 Creative Skills</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">Thumbnail Design</span>
-                        <span class="skill-tag">Graphics Design</span>
-                        <span class="skill-tag">Video Editing</span>
-                        <span class="skill-tag">Photo Editing</span>
-                        <span class="skill-tag">Logo Design</span>
-                    </div>
-                </div>
-
-                <!-- Skill Category 2 -->
-                <div class="skill-category">
-                    <h3>📱 Social Media</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">Content Strategy</span>
-                        <span class="skill-tag">Instagram Marketing</span>
-                        <span class="skill-tag">YouTube Growth</span>
-                        <span class="skill-tag">Community Management</span>
-                        <span class="skill-tag">Analytics</span>
-                    </div>
-                </div>
-
-                <!-- Skill Category 3 -->
-                <div class="skill-category">
-                    <h3>💻 Technical Skills</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">HTML & CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Responsive Design</span>
-                        <span class="skill-tag">Web Development</span>
-                        <span class="skill-tag">SEO Basics</span>
+                        <span class="timeline-year">2025 - Present</span>
+                        <h4>Complete Digital Solutions</h4>
+                        <p>Now offering complete digital solutions for clients, from branding to web development.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Partners Section -->
+    <!-- Partners/Collaboration Section -->
     <section class="section partners-section">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label">Collaborations</span>
-                <h2 class="section-title">Partners & Team</h2>
-            </div>
+            <header class="section-header">
+                <span class="section-label">COLLABORATION</span>
+                <h2 class="section-title">Work With Me</h2>
+            </header>
 
             <div class="partners-grid">
-                <!-- Partner 1 -->
-                <article class="partner-card">
+                <div class="partner-card">
                     <div class="partner-icon">🤝</div>
-                    <h4>Om Prakash</h4>
-                    <p class="partner-role">Strategic Partner</p>
-                    <p>Collaborating on business strategy and growth initiatives.</p>
-                </article>
+                    <h4>Strategic Partner</h4>
+                    <p class="partner-role">Long-term Collaboration</p>
+                    <p>Looking for ongoing partnerships with brands and agencies who need consistent creative support.</p>
+                </div>
 
-                <!-- Partner 2 -->
-                <article class="partner-card">
+                <div class="partner-card">
                     <div class="partner-icon">💼</div>
-                    <h4>Mahdhav Sawmi</h4>
-                    <p class="partner-role">Business Collaborator</p>
-                    <p>Working together on client projects and business development.</p>
-                </article>
+                    <h4>Business Collaborator</h4>
+                    <p class="partner-role">Project-Based Work</p>
+                    <p>Open to collaborating on exciting projects that push creative boundaries and deliver results.</p>
+                </div>
 
-                <!-- Partner 3 -->
-                <article class="partner-card">
-                    <div class="partner-icon">⭐</div>
-                    <h4>Astra Rise 8</h4>
-                    <p class="partner-role">Partner Company</p>
-                    <p>Strategic partnership for expanded service offerings.</p>
-                </article>
+                <div class="partner-card">
+                    <div class="partner-icon">🏢</div>
+                    <h4>Partner Company</h4>
+                    <p class="partner-role">Agency Partnership</p>
+                    <p>Partner with my services to expand your agency's offerings and provide more value to your clients.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
     <section class="cta-section">
-        <div class="container cta-content">
-            <h2>Let's Work Together</h2>
-            <p>Ready to take your brand to the next level?</p>
-            <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let's Create Something Amazing Together!</h2>
+                <p>Ready to take your digital presence to the next level?</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+                    <a href="portfolio.html" class="btn btn-outline">View My Work</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -246,23 +287,27 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>★ Vikas Solanki ★</h3>
-                    <p>Professional Content Creation & Social Media Management</p>
+                <!-- Brand -->
+                <div class="footer-section footer-brand">
+                    <h3>Vikas Solanki</h3>
+                    <p>Professional Content Creator & Social Media Manager</p>
                     <div class="footer-social">
-                        <a href="https://youtube.com/@RealVikasSolanki" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="https://x.com/vikassolankiraj" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
-                        <a href="https://instagram.com/RealVikasSolanki" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://github.com/RealVikasSolanki" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/RealVikasSolanki" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@RealVikasSolanki" target="_blank" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://instagram.com/RealVikasSolanki" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/RealVikasSolanki" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/RealVikasSolanki" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p><i class="fas fa-envelope"></i> PartnersOfficialWorks.0990@Gmail.com</p>
-                    <p><i class="fab fa-whatsapp"></i> +91 88751 90812</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Bikaner, Rajasthan, IN</p>
-                </div>
+
+                <!-- Quick Links -->
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
@@ -273,18 +318,28 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
+
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> PartnersOfficialWorks.0990@Gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 88751 90812</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bikaner, Rajasthan, India</p>
+                </div>
             </div>
+
             <div class="footer-bottom">
-                <p>&copy; 2026 Vikas Solanki. All Rights Reserved.</p>
+                <p>&copy; 2026 Vikas Solanki. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button -->
+    <!-- Scroll to Top -->
     <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
